@@ -1,23 +1,21 @@
-
 @import url("css_variables.scss");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 0;
 }
 
-
-body {    
-    font-size: 20px;
-    color: var(--mustard);   
-    font-family: 'Francois One', sans-serif;   
+body {
+  font-size: 20px;
+  color: var(--mustard);
+  font-family: "Francois One", sans-serif;
 }
 
-#layout {    
-    background-color: var(--concrete);  
-    display: flex;
-    flex-flow: column;
-    height: 100vh;
+#layout {
+  background-color: var(--concrete);
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
 }
-

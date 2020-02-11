@@ -1,7 +1,7 @@
 import React from "react";
 
 const IconAdd = props => (
-  <svg height="24" width="24" viewBox="0 0 24 24" aria-hidden="true" {...props}>
+  <svg className="svg-icon" viewBox="0 0 24 24" aria-hidden="true" {...props}>
     <title>Icon Add</title>
     <path
       fill-rule="evenodd"
