@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-
 const HeaderComponent = styled.header`
   position: sticky;
   top: 0;
