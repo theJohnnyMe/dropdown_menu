@@ -2,9 +2,9 @@ import React from "react";
 import ItemContainer from "./../item-container/item-container";
 import LinkItem from "./../items/link-item.js";
 
-const NavigationDD = () => {
+const NavigationDD = props => {
   return (
-    <ItemContainer wide>
+    <ItemContainer {...props}>
       <LinkItem
         title="Johnny unsplash"
         href="https://unsplash.com/@thejohnnyme"

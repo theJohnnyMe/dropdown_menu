@@ -12,9 +12,9 @@ import IconDownload from "./../icons/icon-download.js";
 import IconShare from "./../icons/icon-share.js";
 import IconSmarthphone from "./../icons/icon-smarthpone.js";
 
-const MixedDD = () => {
+const MixedDD = props => {
   return (
-    <ItemContainer wide>
+    <ItemContainer {...props}>
       <ButtonItem title="Add" hasIcon={<IconAdd />} />
       <ButtonItem title="Edit" hasIcon={<IconEdit />} />
       <ButtonItem title="Delete" hasIcon={<IconErase />} />

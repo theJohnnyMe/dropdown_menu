@@ -6,9 +6,9 @@ import IconAdd from "./../icons/icon-add.js";
 import IconEdit from "./../icons/icon-edit.js";
 import IconErase from "./../icons/icon-erase.js";
 
-const ActionDD = () => {
+const ActionDD = props => {
   return (
-    <ItemContainer>
+    <ItemContainer {...props}>
       <ButtonItem title="Add" hasIcon={<IconAdd />} />
       <ButtonItem title="Edit" hasIcon={<IconEdit />} />
       <ButtonItem title="Delete" hasIcon={<IconErase />} />

@@ -8,9 +8,9 @@ import IconDownload from "./../icons/icon-download.js";
 import IconShare from "./../icons/icon-share.js";
 import IconSmarthphone from "./../icons/icon-smarthpone.js";
 
-const MobileDD = () => {
+const MobileDD = props => {
   return (
-    <ItemContainer wide>
+    <ItemContainer {...props}>
       <ButtonItem title="Play Now" hasIcon={<IconPlay />} />
       <ButtonItem title="Copy url" hasIcon={<IconCopy />} />
       <ButtonItem title="Download song" hasIcon={<IconDownload />} />
