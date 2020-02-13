@@ -25,10 +25,9 @@ const BaseItem = styled.li`
     text-decoration: none;
     width: 100%;
   }
-  a:disabled,
   button:disabled {
     color: gray;
-    .svg-icon{
+    .svg-icon {
       fill: gray;
     }
   }
